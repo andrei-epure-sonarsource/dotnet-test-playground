@@ -11,5 +11,9 @@ namespace ProductionLibrary
             a(42);
             return "foo";
         }
+
+        public string Bar() => "bar";
+
+        public void ThrowStuff() => throw new ArgumentException("x");
     }
 }
